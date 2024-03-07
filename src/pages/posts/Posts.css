@@ -1,0 +1,40 @@
+.Posts {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    max-height: 85vh;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.posts-search {
+    position: fixed;
+    top: 0;
+    right: 10px;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right:0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+    .Search.posts-search {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+    .Search.posts-search .Input {
+        width: 100%;
+    }
+}

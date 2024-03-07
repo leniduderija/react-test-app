@@ -1,0 +1,16 @@
+.Button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 8px -8px rgba(0,0,0,1);
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    cursor: pointer;
+    color: rgba(0,0,0,0.7);
+}
+.Button:hover {
+    background-color: #f4f4f4;
+}
+.margin-y-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
