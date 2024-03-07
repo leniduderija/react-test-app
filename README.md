@@ -45,4 +45,13 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Approximate time spent on the project
+- 1 hour: setting up the project, deciding about project folder structure
+- 2 hours: creating the basic components and the basic layout
+- 1 hour: setting up HTTP client and API services
+- 1 hour: creating the post card component with comments section
+- 1 hour: creating the logic for the search bar, filtering and overlay components
+- 2 hour: covering the project with tests
+- 0.5 hour: documenting the project
+- 1 hour: refactoring and cleaning up the code
+TOTAL: 9.5 hours (approx. 10 hours)
