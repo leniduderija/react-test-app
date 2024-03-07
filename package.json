@@ -22,11 +22,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "@babel/preset-typescript": "^7.23.3",
-    "@jest/types": "^29.6.3",
-    "ts-jest": "^29.1.2"
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -54,10 +50,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "jest": {
-    "moduleNameMapper": {
-      "^axios$": "axios/dist/node/axios.cjs"
-    }
   }
 }
